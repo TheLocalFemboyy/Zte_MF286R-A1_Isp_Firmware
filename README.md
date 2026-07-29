@@ -35,7 +35,7 @@ Some have battery's (like ex Tele2 routers, now Telemach), some have different p
 <br>
 ### Soldering UART wires
 To communicate with the router, we need a [CP2102 USB to UART adapter](https://www.aliexpress.com/item/1005008880984585.html) (its very cheap, even after eu taxes)<br>
-<img src="repo_img/img9.png"><br>
+<img src="repo_img/img9.PNG"><br>
 ## Thanks!
 Huge shout out to guys at [OpenWrt](https://openwrt.org/) for making custom firmware for this bad boy.<br>
 The firmware was extracted using a [guide](https://openwrt.org/toh/zte/mf286r) they made... (Step 1; Method 1, Step 2; Method 2)<br>
