@@ -1,15 +1,28 @@
 # Zte MF286R (A1 ISP Firmware)
 This repo contains Zte MF286R Firmware, specifically from Croatian ISP "A1"<br>
 <br>
-<img src="repo_img/img1.jpg" width="1000" lengt="1000"><br>
+<img src="repo_img/img1.jpg"><br>
 <br>
 Software version: CR_A1TKHRMF286RV1.0.0B08<br>
 Hardware version: MF286R-1.0 (this one is without the battery)<br>
-This is the latest firmware as of 29.7.2026.<br>
-Me, and many others think that this is the latest one that's going to come out by A1 Croatia...<br>
-It was developed somewhere in 2022 judging by the copyright date...<br>
 <br>
-<img src="repo_img/img2.png"><br>
+This is the latest firmware as of 29.7.2026.<br>
+It was developed somewhere in 2022 judging by the copyright date...<br>
+Me, and many others think that this is the latest one that's going to come out by A1 Croatia 😭<br>
+<br>
+<img src="repo_img/img2.png">
+<img src="repo_img/img6.jpg">
+<br>
+## Why have I dumped it?
+I wanted to change the firmware, and I noticed that the original firmware, like many other isp's firmware, was not dumped...
+<br>
+## Why do I want to change the firmware?
+With ~~retarded~~ oversimplified firmware A1 provided, you cant change much settings...<br>
+With OpenWrt firmware you could add much more functionality and settings...<br>
+<br>
+Another huge contributing factor was that A1 can spy and modify your router at any time with TR069 💀
+<br>
+<img src="repo_img/img7.jpg">
 <br>
 ## Disassembly
 There are small differences between MF286R routers (each isp customized their one's).<br>
