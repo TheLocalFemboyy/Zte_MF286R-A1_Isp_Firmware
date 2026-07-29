@@ -26,7 +26,7 @@ Another huge contributing factor was that A1 can spy and modify your router at a
 <br>
 <img src="repo_img/img7.jpg">
 <br>
-## Dumping process
+## Dumping process + Installing OpenWrt
 ### Disassembling the router
 There are small differences between MF286R routers (each isp customized their one's).<br>
 Some have battery's (like ex Tele2 routers, now Telemach), some have different pcb's...<br>
@@ -34,15 +34,19 @@ Some have battery's (like ex Tele2 routers, now Telemach), some have different p
 <img src="repo_img/img3.jpg"><img src="repo_img/img4.jpg"><img src="repo_img/img5.jpg">
 <br>
 ### Soldering UART wires
-To communicate with the router, we need a [CP2102 USB to UART adapter (serial TTL)](https://www.aliexpress.com/item/1005008880984585.html) (its very cheap, even after eu taxes)<br>
-<img src="repo_img/img9.PNG"><br>
-I had some spare longer wires (you just need 3; TX RX GND), and soldered them using this [refrence](https://openwrt.org/_media/media/zte/mf286d/mf286d-serial-console.jpg)...<br>
-<img src="repo_img/img10.jpg"><br>
-After soldering I recommend to hot/super glue it a bit to secure it in place...<br>
-<img src="repo_img/img11.jpg"><br>
-I placed my wires through the empty battery pins place on the plastic shell...<br>
-<img src="repo_img/img11.jpg"><br>
-Now I got easy access to the UART cables, I also recommend to put a small sticker to label your wires...
+To communicate with the router, we need a [CP2102 USB to UART adapter (serial TTL)](https://www.aliexpress.com/item/1005008880984585.html) (its very cheap, even after eu taxes)<br><br>
+<img src="repo_img/img9.PNG"><br><br>
+I had some spare longer wires (you just need 3; TX RX GND), and soldered them using this [refrence](https://openwrt.org/_media/media/zte/mf286d/mf286d-serial-console.jpg)...<br><br>
+<img src="repo_img/img10.jpg"><br><br>
+After soldering I recommend to hot/super glue it a bit to secure it in place...<br><br>
+<img src="repo_img/img11.jpg"><br><br>
+I placed my wires through the empty battery pins place on the plastic shell...<br><br>
+<img src="repo_img/img12.jpg"><br><br>
+Now I got easy access to the UART cables, just pop off one panel 😭<br>
+I also recommend to put a small sticker to label your wires...
+<br>
+### Dumping the firmware 😠
+*put some crazy stuff in here in the future*
 <br>
 ## Thanks!
 Huge shout out to guys at [OpenWrt](https://openwrt.org/) for making custom firmware for this bad boy.<br>
