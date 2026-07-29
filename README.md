@@ -26,12 +26,16 @@ Another huge contributing factor was that A1 can spy and modify your router at a
 <br>
 <img src="repo_img/img7.jpg">
 <br>
-## Disassembly
+## Dumping process
+### Disassembling the router
 There are small differences between MF286R routers (each isp customized their one's).<br>
 Some have battery's (like ex Tele2 routers, now Telemach), some have different pcb's...<br>
 <br>
 <img src="repo_img/img3.jpg"><img src="repo_img/img4.jpg"><img src="repo_img/img5.jpg">
-
+<br>
+### Soldering UART wires
+To communicate with the router, we need a [CP2102 USB to UART adapter](https://www.aliexpress.com/item/1005008880984585.html) (its very cheap, even after eu taxes)<br>
+<img src="repo_img/img9.png"><br>
 ## Thanks!
 Huge shout out to guys at [OpenWrt](https://openwrt.org/) for making custom firmware for this bad boy.<br>
-The firmware was extracted using a [guide](https://openwrt.org/toh/zte/mf286r) they made...<br>
+The firmware was extracted using a [guide](https://openwrt.org/toh/zte/mf286r) they made... (Step 1; Method 1, Step 2; Method 2)<br>
