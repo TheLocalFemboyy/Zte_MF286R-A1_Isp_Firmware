@@ -9,7 +9,7 @@ Hardware version: MF286R-1.0 (this one is without the battery)<br>
 <br>
 This is the latest firmware as of 29.7.2026.<br>
 It was developed somewhere in 2022 judging by the copyright date...<br>
-Me, and many others think that this is the latest one that's going to come out by A1 Croatia 😭<br>
+Me, and many other people on various forums think that this is the latest firmware that's going to come out by A1 Croatia, since they got new routers to offer... 😭<br>
 <br>
 <img src="repo_img/img2.png">
 <img src="repo_img/img6.jpg">
