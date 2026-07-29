@@ -26,7 +26,7 @@ Another huge contributing factor was that A1 can spy and modify your router at a
 <br>
 <img src="repo_img/img7.jpg">
 <br>
-## Dumping process + Installing OpenWrt ☣️
+## Dumping process ☣️
 ### Disassembling the router 🪛
 There are small differences between MF286R routers (each isp customized their one's).<br>
 Some have battery's (like ex Tele2 routers, now Telemach), some have different pcb's...<br>
