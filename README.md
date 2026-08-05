@@ -50,4 +50,4 @@ I also recommend to put a small sticker to label your wires...
 <br>
 ## Thanks! 💌
 Huge shout out to guys at [OpenWrt](https://openwrt.org/) for making custom firmware for this bad boy.<br>
-The firmware was extracted using a [guide](https://openwrt.org/toh/zte/mf286r) they made... (Step 1; Method 1, Step 2; Method 2)<br>
+The firmware was extracted using specific steps using a [guide](https://openwrt.org/toh/zte/mf286r) they made... (Step 1; Method 1, Step 2; Method 2)<br>
