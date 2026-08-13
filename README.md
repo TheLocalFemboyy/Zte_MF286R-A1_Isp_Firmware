@@ -46,7 +46,7 @@ Now I got easy access to the UART cables, just pop off one panel 😭<br>
 I also recommend to put a small sticker to label your wires...
 <br>
 ### Dumping the firmware 😠
-Connect everything (tx on rx, rx on tx), install [(those drivers if on windows)](https://www.pololu.com/docs/0j7/all)...
+Connect everything (tx on rx, rx on tx, usb to pcc...), install [(those drivers if on windows)](https://www.pololu.com/docs/0j7/all)...<br>
 img13
 Check COM port number for the CP2102 adapter.
 img14
@@ -65,6 +65,8 @@ mg22
 Wala, you got all of your partitons (firmware), copy it over somewhere safe!
 img
 <br>
+## Where can I download the firmware, and see the boot logs? ❔
+Check the release section on this repo, or follow this [link](https://github.com/TheLocalFemboyy/Zte_MF286R-A1_Isp_Firmware/releases/tag/Firmware).
 ## Thanks! 💌
 Huge shout out to guys at [OpenWrt](https://openwrt.org/) for making custom firmware for this bad boy.<br>
 The firmware was extracted using specific steps using a [guide](https://openwrt.org/toh/zte/mf286r) they made... (Step 1; Method 1, Step 2; Method 2)<br>
