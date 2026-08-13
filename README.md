@@ -46,7 +46,24 @@ Now I got easy access to the UART cables, just pop off one panel 😭<br>
 I also recommend to put a small sticker to label your wires...
 <br>
 ### Dumping the firmware 😠
-*put some crazy stuff in here in the future*
+Connect everything (tx on rx, rx on tx), install [(those drivers if on windows)](https://www.pololu.com/docs/0j7/all)...
+img13
+Check COM port number for the CP2102 adapter.
+img14
+Enter the COM number into putty, bitrate 115200, press ok
+img15
+Connect a max 4gb usb stick, formatted with FAT to the router...
+img16 img17
+Power up the router, you will see bootlogs. Wait for them to finish appearing. And press enter.
+img18
+type this command to list partitions:!!!!!!!!!!!!!!!!!!!! and enter
+img19
+type this command to copy over the parititons!!!, press enter a couple of times so when admin@(none):~# appears you know that it finished uploading
+img21
+type this command to safely remove the usb stick from the router
+mg22
+Wala, you got all of your partitons (firmware), copy it over somewhere safe!
+img
 <br>
 ## Thanks! 💌
 Huge shout out to guys at [OpenWrt](https://openwrt.org/) for making custom firmware for this bad boy.<br>
