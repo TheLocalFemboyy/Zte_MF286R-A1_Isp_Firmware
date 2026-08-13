@@ -21,7 +21,9 @@ I wanted to change the firmware, and I noticed that the original firmware, like 
 With ~~retarded~~ oversimplified firmware A1 provided, you cant change much settings...<br>
 With OpenWrt firmware you could add much more functionality and settings...<br>
 <br>
-Another huge contributing factor was that A1 can spy and modify your router at any time with TR069 💀<br>
+More contributing factors where:<br>
+That they left lots of errors in the firmware (as can be seen in the [logs](https://github.com/TheLocalFemboyy/Zte_MF286R-A1_Isp_Firmware/releases/tag/Firmware) lol).<br>
+And that A1 can spy and modify your router at any time with TR069 💀<br>
 (it phones home every 3 minutes, 24/7)
 <br>
 <img src="repo_img/img7.jpg">
