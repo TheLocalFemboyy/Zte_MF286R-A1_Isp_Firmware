@@ -70,13 +70,13 @@ for i in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16; do cat /dev/mtd$i > \
 /var/usb_disk/mtd$i; done
 ```
 <img src="repo_img/img21.PNG"><br><br>
-Type this command to safely remove the usb flash drive from the router:
+Type this command to safely remove the usb flash drive from the router (wait for the logs to stop appearing):
 ```
 umount /var/usb_disk; sync
 ```
 <img src="repo_img/img22.PNG"><br><br>
 Nice, now you got all of your partitons (firmware) saved up!<br>
-Copy it over somewhere safe! And archive it like me. 😅><br><br>
+Copy it over somewhere safe! And archive it like me. 😅<br><br>
 <img src="repo_img/img23.PNG">
 <br>
 ## Where can I download the firmware, and see the boot logs? ❔
