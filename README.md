@@ -46,8 +46,8 @@ Now I got easy access to the UART cables, just pop off one panel 😭<br>
 I also recommend to put a small sticker to label your wires...
 <br>
 ### Dumping the firmware 😠
-Connect everything (tx on rx, rx on tx, usb to pcc...), install [(those drivers if on windows)](https://www.pololu.com/docs/0j7/all)...<br>
-img13
+Connect everything (tx on rx, rx on tx, usb to pcc...), install [(those drivers if on windows)](https://www.pololu.com/docs/0j7/all).<br>
+<img src="repo_img/img13.PNG"><img src="repo_img/img14.jpg"><br><br>
 Check COM port number for the CP2102 adapter.
 img14
 Enter the COM number into putty, bitrate 115200, press ok
