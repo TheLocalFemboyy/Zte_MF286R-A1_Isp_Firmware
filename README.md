@@ -76,7 +76,7 @@ umount /var/usb_disk; sync
 ```
 <img src="repo_img/img22.PNG"><br><br>
 Nice, now you got all of your partitons (firmware) saved up!<br>
-Copy it over somewhere safe! And archive it like me. 😅
+Copy it over somewhere safe! And archive it like me. 😅><br><br>
 <img src="repo_img/img23.PNG">
 <br>
 ## Where can I download the firmware, and see the boot logs? ❔
