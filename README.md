@@ -48,8 +48,8 @@ I also recommend to put a small sticker to label your wires...
 ### Dumping the firmware 😠
 Connect everything (tx on rx, rx on tx, usb to pc...), install [(those drivers if on windows)](https://www.pololu.com/docs/0j7/all).<br><br>
 <img src="repo_img/img13.PNG"><img src="repo_img/img14.jpg"><br><br>
-Check COM port number for the CP2102 adapter.
-img14
+Check COM port number for the CP2102 adapter.><br><br>
+<img src="repo_img/img15.PNG">
 Enter the COM number into putty, bitrate 115200, press ok
 img15
 Connect a max 4gb usb stick, formatted with FAT to the router...
