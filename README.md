@@ -46,27 +46,41 @@ Now I got easy access to the UART cables, just pop off one panel 😭<br>
 I also recommend to put a small sticker to label your wires...
 <br>
 ### Dumping the firmware 😠
-Connect everything (tx on rx, rx on tx, usb to pc...), install [(those drivers if on windows)](https://www.pololu.com/docs/0j7/all).<br><br>
+Connect everything (tx on rx, rx on tx, usb to pc...), do not connect the router to power yet!.<br><br>
+Install [(those drivers if on windows)](https://www.pololu.com/docs/0j7/all).<br><br>
 <img src="repo_img/img13.PNG"><img src="repo_img/img14.jpg"><br><br>
-Check COM port number for the CP2102 adapter.><br><br>
-<img src="repo_img/img15.PNG">
-Enter the COM number into putty, bitrate 115200, press ok
-img15
-Connect a max 4gb usb stick, formatted with FAT to the router...
-img16 img17
-Power up the router, you will see bootlogs. Wait for them to finish appearing. And press enter.
-img18
-type this command to list partitions:!!!!!!!!!!!!!!!!!!!! and enter
-img19
-type this command to copy over the parititons!!!, press enter a couple of times so when admin@(none):~# appears you know that it finished uploading
-img21
-type this command to safely remove the usb stick from the router
-mg22
-Wala, you got all of your partitons (firmware), copy it over somewhere safe!
-img
+Check COM port number for the CP2102 adapter.<br><br>
+<img src="repo_img/img15.PNG"><br><br>
+Set the connection type to serial. Enter the COM port number into [PuTTY](https://putty.org/index.html), set the bitrate (speed) to 115200, press Open.<br><br>
+<img src="repo_img/img16.PNG"><br><br>
+Connect a usb flash drive (max 4gb) to your pc, format as FAT. Safely eject and connect to the router!<br><br>
+<img src="repo_img/img17.PNG"><img src="repo_img/img18.jpg"><br><br>
+Plug the power cable into the router, you will instantly see boot logs. Wait for them to finish appearing. And press enter.<br><br>
+<img src="repo_img/img19.PNG"><br><br>
+Type this command to list the partitions, and press enter:
+```
+cat /proc/mtd
+```
+<img src="repo_img/img20.PNG"><br><br>
+Take note of the number of the parititons!!! In my case I have 17 (0-16), adjust this command accordingly!<br>
+After checking the command type it in, press enter, it will start copying the partitions to the usb flash drive.<br>
+When admin@(none):~# appears back, you know that it finished copying.
+```
+for i in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16; do cat /dev/mtd$i > \
+/var/usb_disk/mtd$i; done
+```
+<img src="repo_img/img21.PNG"><br><br>
+Type this command to safely remove the usb flash drive from the router:
+```
+umount /var/usb_disk; sync
+```
+<img src="repo_img/img22.PNG"><br><br>
+Nice, now you got all of your partitons (firmware) saved up!<br>
+Copy it over somewhere safe! And archive it like me. 😅
+<img src="repo_img/img23.PNG">
 <br>
 ## Where can I download the firmware, and see the boot logs? ❔
 Check the release section on this repo, or follow this [link](https://github.com/TheLocalFemboyy/Zte_MF286R-A1_Isp_Firmware/releases/tag/Firmware).
 ## Thanks! 💌
-Huge shout out to guys at [OpenWrt](https://openwrt.org/) for making custom firmware for this bad boy.<br>
-The firmware was extracted using specific steps using a [guide](https://openwrt.org/toh/zte/mf286r) they made... (Step 1; Method 1, Step 2; Method 2)<br>
+Huge shout out to guys at [OpenWrt](https://openwrt.org/) for making custom firmware for this router.<br>
+The firmware was extracted using specific steps from their [guide](https://openwrt.org/toh/zte/mf286r). (Step 1; Method 1, Step 2; Method 2)<br>
